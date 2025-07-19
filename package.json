@@ -1,0 +1,23 @@
+{
+  "name": "destitutes-of-india",
+  "version": "1.0.0",
+  "description": "A tech-driven initiative to identify, map, and aid destitute individuals across India",
+  "main": "index.html",
+  "scripts": {
+    "dev": "php -S localhost:8000 -t public",
+    "build": "echo 'No build step required'",
+    "start": "php -S localhost:8000 -t public"
+  },
+  "keywords": [
+    "social-impact",
+    "php",
+    "vercel",
+    "india",
+    "charity"
+  ],
+  "author": "YugaYatra Retail (Opc) Pvt Ltd",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

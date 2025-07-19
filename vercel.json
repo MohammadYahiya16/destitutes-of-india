@@ -1,0 +1,33 @@
+{
+  "functions": {
+    "public/upload.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "public/api_posts.php": {
+      "runtime": "vercel-php@0.6.0"
+    },
+    "public/debug-images.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/upload",
+      "dest": "/public/upload.php"
+    },
+    {
+      "src": "/api/posts",
+      "dest": "/public/api_posts.php"
+    },
+    {
+      "src": "/debug-images",
+      "dest": "/public/debug-images.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ],
+  "buildCommand": "echo 'No build step required'",
+  "outputDirectory": "public"
+} 
