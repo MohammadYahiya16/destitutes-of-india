@@ -76,4 +76,5 @@ public/uploads/
 public/posts.json
 
 # PHP
-*.cache 
+*.cache 'file.txt'      # append file to .gitignore
+'file.txt' 
